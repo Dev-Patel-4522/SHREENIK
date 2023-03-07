@@ -1,0 +1,81 @@
+
+  
+
+.banner1{
+    height: 80px;
+    font-weight: bold;
+    width: 100%;
+    background-color:black;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top :0px;
+    
+  }
+  
+  .logo{
+     margin: 0px 0px;
+  
+  }
+  .logo img{
+    margin-left:30px;
+    margin-top: 5px;
+    height:80px;
+     width:130px;
+  }
+
+.nav{
+  
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 100px;
+    margin-top: -100px;
+    position:sticky;
+    top:0;  
+ }
+ .nav .active{
+   color: bisque;
+   text-decoration: none;
+   display: flex;
+     list-style: none;
+     margin-left: 50px;
+    font-size: 20px;
+    margin-top: 25px;
+ }
+ .nav button{
+   color:bisque;
+   background-color :black;
+   height: 30px;
+   font-size: 20px;
+   margin-top:20px;
+   margin-left:20px;
+   width: 120px;
+   border-color: bisque;
+ }
+
+ @media only screen and (max-width: 600px) {
+
+  .banner1{
+    height: 90px;
+    width: 505px;
+    background-color: rgb(1, 15, 15);
+    top: 0px;
+   
+  }
+  .logo {
+    height: 50px;
+    margin: 0px 0px 0px -20px;
+  }
+  .nav {
+   flex-direction: row;
+   
+   
+}
+.nav .active{
+  margin: 0px 0px 0xp 100px;
+  font-size: x-small;
+
+}
+
+}
